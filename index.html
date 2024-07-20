@@ -4,12 +4,26 @@
 </HEAD>
 <meta charset="utf-8">
 <TITLE>Wenbing Tang Homepage</TITLE>
-<BODY TEXT="#000000" BGCOLOR="#ffffff">
+<style>
+        ol.custom-counter {
+            counter-reset: custom-counter;
+        }
+        ol.custom-counter > li {
+            list-style: none;
+            counter-increment: custom-counter;
+        }
+        ol.custom-counter > li::before {
+            content: "(" counter(custom-counter) ")";
+            margin-right: 10px;
+        }
+    </style>
 
+<BODY TEXT="#000000" BGCOLOR="#ffffff">
 <!--<font face="COMIC SANS MS" color="red">This page is under construction!!!</font>
 <br>
 <br>-->
-
+ <div style="width: 80%; margin: 0 auto; background-color: white; padding: 20px;">
+<!--        This div occupies 80% of the page width and is centered.-->
 <table>
 <tr>
 <td width="30%">
@@ -21,10 +35,9 @@
 </td>
 <td width=50%>
 <h1>WenBing Tang (唐文兵)</h1>
-<h2><font size="4"> Ph.D. Student</font></h2>
-    <h3><font size="4"> Supervised by:</b> Prof. <a href="https://faculty.ecnu.edu.cn/_s43/lj2/main.psp">Jing Liu</a> and Dr. <a href="https://yuanzhou-yzhou.github.io/">Yuan Zhou</a> </font></h3>
-<h3><font size="4"> Software Engineering Institute</font></h3>
-<h3><font size="4"> East China Normal University (ECNU), China </font></h3>
+<h3><font size="4"> Research Fellow</font></h3>
+<h3><font size="4"> College of Computing and Data Science</font></h3>
+<h3><font size="4"> Nanyang Technological University (NTU), Singapore </font></h3>
 
 <!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +91 7080975312 (Mobile) -->
     </font>
@@ -36,29 +49,40 @@
 <br>
 
 
-<h2>Biography</h2>
-<hr>
-<li>
-Currently, I am a fourth-year Ph.D. student at <a href="http://www.sei.ecnu.edu.cn/">Software Engineering Institute</a> in <a href="https://www.ecnu.edu.cn/"> East China Normal University (ECNU)</a>, Shanghai, China.<br /><br />
-</li>
-<li>
-    I received my master degree of software engineering in <a href="http://xinxi.zstu.edu.cn/">School of Information Science and Technology</a> in April 2020 from <a href="http://www.zstu.edu.cn/">Zhejiang Sci-Tech University (ZSTU)</a>, Hangzhou, China(2017-2020), and was surpervised by Prof. <a href="http://xinxi.zstu.edu.cn/info/1010/1472.htm">ZuoHua Ding.</a> <br /><br />
-</li>
-<li>
-I received my bacholar degree of software engineering in <a href="http://cs.njupt.edu.cn/">School of Computer Science</a> in June 2017 from <a href="http://www.njupt.edu.cn/"> Nanjing University of Posts and Telecommunications (NJUPT)</a>, Nanjing, China (2013-2017).
-</li>
+<header class="posttitle">
+	<h2> <font color="purple">Biography </font> </h2>
+</header>
 
-<h2>Research Interests</h2>
-<hr>
-My research interests include multi-robot robust control under attacks and causal reinforcement control for robotic.
-<br>
-[<a href="https://kreattang.github.io/files/causal.html">Causal Inference</a>]<br>
-[<a href="https://kreattang.github.io/files/rl.html">Motion Planning</a>]
-<h2>Publication List</h2>
-You can find my articles on my
-<a href="https://scholar.google.com/citations?hl=en&user=LFlZL8YAAAAJ&view_op=list_works&gmla=AJsN-F7Ave2z8m1SzGiZitjg1D8QPvsYkXMsGGtNK27WnK7TRfmtdqGUGUMr40bY3VAY74m-MovbQ57TFBmmX9RM8JG7lR2kFvPSELAGqGM8RHPq5-cDiLA">Google Scholar</a>
- or <a href="https://dblp.uni-trier.de/pid/237/7970-1.html">DBLP</a>.
-<hr>
+<p>
+    <li>
+I am currently a Research Fellow at Nanyang Technological University with Prof. <a href="https://personal.ntu.edu.sg/yangliu/">Yang Liu</a>.
+</li>
+<li>
+    I obtained my Ph.D. degree in June 2024 from <a href="http://www.sei.ecnu.edu.cn/">Software Engineering Institute</a> at  <a href="https://www.ecnu.edu.cn/"> East China Normal University (ECNU)</a>, Shanghai, China, supervised by  by Prof. <a href="https://faculty.ecnu.edu.cn/_s43/lj2/main.psp">Jing Liu</a> and Dr. <a href="https://yuanzhou-yzhou.github.io/">Yuan Zhou</a>.
+</li>
+<li>
+    I received my master degree in 2020 from  <a href="http://xinxi.zstu.edu.cn/">School of Information Science and Technology</a> at <a href="http://www.zstu.edu.cn/">Zhejiang Sci-Tech University (ZSTU)</a>, Hangzhou, China, and was supervised by Prof. <a href="http://xinxi.zstu.edu.cn/info/1010/1472.htm">Zuohua Ding</a>.
+</li>
+<li>
+I received my bacholar degreee in 2017 from <a href="http://www.njupt.edu.cn/"> Nanjing University of Posts and Telecommunications (NJUPT)</a>, Nanjing, China.
+</li>
+</p>
+
+
+<header class="posttitle">
+	<h2> <font color="purple">Research Interests </font> </h2>
+</header>
+
+My research interests include (1) cooperative motion control, (2) safe and robust decision-making, and (3) safety testing of autonomous intelligent unmanned systems, such as mobile robots, unmanned aerial vehicles, and autonomous vehicles.
+ <ol class="custom-counter">
+     <li><strong>Cooperative Motion Control:</strong> Cooperative collision avoidance and cooperative motion planning of multi-robot systems in unstructured environments.</li>
+     <li><strong>Safe and Robust Decision-making:</strong> Anomaly detection and safety-robust decision-making for mobile robot systems in adversarial and uncertain environments.</li>
+     <li><strong>Safety Testing:</strong> Critical test scenario generation and simulation-based testing of autonomous driving systems.</li>
+    </ol>
+
+<header class="posttitle">
+	<h2> <font color="purple">Publications </font> </h2>
+</header>
 [1] Wenbing Tang, Yuan Zhou, Yang Liu, Zuohua Ding, Jing Liu. "Robust Motion Planning for Multi-Robot Systems
 Against Position Deception Attacks." IEEE Transactions on Information Forensics and Security (2023).</br>
 [2] Wenbing Tang, Yang Liu, Yuan Zhou, Zuohua Ding. "Causality-Guided Counterfactual Debiasing for Anomaly Detection of Cyber-Physical Systems." IEEE Transactions on Industrial Informatics (2023).</br>
@@ -69,33 +93,72 @@ using Fuzzy Rules and Velocity Obstacles." Robotica (2022).</br>
 [6] Yao Li, Wenbing Tang, Bochen Chen, and Zuohua Ding. "Tracking a Ground Moving Target with UAV Based on Interval Type-2 Fuzzy Logic." The 14th Theoretical Aspects of Software Engineering Conference (TASE). IEEE, 2020. </br>
 [7] Wenbing Tang, Libin Zheng, Mingyue Jiang, and Zuohua Ding. "Dynamic Algorithm Selection for Mobile Robots Motion Planning." 2019 6th International Conference on Dependable Systems and Their Applications (DSA). IEEE, 2020. </br>
 [8] Wenbing Tang, Zuohua Ding, and Mengchu Zhou. "A spammer identification method for class imbalanced weibo datasets." IEEE Access 7 (2019): 29193-29201.
-<h2>Teaching Assistant</h2>
-<hr>
-<li>
-<a href="https://tingsu.github.io/files/courses/se.html">Software Engineering</a>(with Prof. <a href="http://tingsu.github.io/">Ting Su</a>, for undergraduate students), Spring, 2021
-</li>
 
-<h2>Awards & Honors </h2>
-<hr>
-<li>National scholarship for graduate students,2019</li>
-<li>Excellent graduates of Zhejiang Province,2020</li>
-<li>First-Class Academic Scholarship, Zhejiang Sci-Tech University, Hangzhou, 2018, 2019</li>
+<header class="posttitle">
+	<h2> <font color="purple">Awards & Honors </font> </h2>
+</header>
+<li>Outstanding Graduate of Shanghai, 2024</li>
+<li>Outstanding Graduate of Zhejiang, 2020</li>
+<li>National Graduate Fellowship, 2019</li>
 <li>National Encouragement Scholarship,2014</li>
 
-<h2>Correspondence</h2>
-<hr>
-<li>
-Email: wenbingtang@hotmail.com 
+
+
+<header class="posttitle">
+	<h2> <font color="purple">Contact </font> </h2>
+</header>
+<li>Email: wenbing.tang@ntu.edu.sg
 </li>
-<li>
-Address: B1108, Science Building, Zhongbei Campus, East China Normal University, Shanghai, China.
-</li>
-</br>
+
+
+
+<!--<h2>Research Interests</h2>-->
+<!--<hr>-->
+<!--My research interests include multi-robot robust control under attacks and causal reinforcement control for robotic.-->
+<!--<br>-->
+<!--[<a href="https://kreattang.github.io/files/causal.html">Causal Inference</a>]<br>-->
+<!--[<a href="https://kreattang.github.io/files/rl.html">Motion Planning</a>]-->
+<!--<h2>Publication List</h2>-->
+<!--You can find my articles on my-->
+<!--<a href="https://scholar.google.com/citations?hl=en&user=LFlZL8YAAAAJ&view_op=list_works&gmla=AJsN-F7Ave2z8m1SzGiZitjg1D8QPvsYkXMsGGtNK27WnK7TRfmtdqGUGUMr40bY3VAY74m-MovbQ57TFBmmX9RM8JG7lR2kFvPSELAGqGM8RHPq5-cDiLA">Google Scholar</a>-->
+<!-- or <a href="https://dblp.uni-trier.de/pid/237/7970-1.html">DBLP</a>.-->
+<!--<hr>-->
+<!--[1] Wenbing Tang, Yuan Zhou, Yang Liu, Zuohua Ding, Jing Liu. "Robust Motion Planning for Multi-Robot Systems-->
+<!--Against Position Deception Attacks." IEEE Transactions on Information Forensics and Security (2023).</br>-->
+<!--[2] Wenbing Tang, Yang Liu, Yuan Zhou, Zuohua Ding. "Causality-Guided Counterfactual Debiasing for Anomaly Detection of Cyber-Physical Systems." IEEE Transactions on Industrial Informatics (2023).</br>-->
+<!--[3] Wenbing Tang, Yuan Zhou, Haiying Sun, Yuhong Zhang, Yang Liu, Zuohua Ding, Jing Liu, Jifeng He. "GAN-Based Robust Motion Planning for Mobile Robots Against Localization Attacks." IEEE Robotics and Automation Letters (2023).</br>-->
+<!--[4] Wenbing Tang, Yuan Zhou, Tianwei Zhang, Yang Liu, Jing Liu and Zuohua Ding. "Cooperative Collision Avoidance in Multirobot Systems-->
+<!--using Fuzzy Rules and Velocity Obstacles." Robotica (2022).</br>-->
+<!--[5] Junqiang Yang, Wenbing Tang, and Zuohua Ding. "Long-Term Target Tracking of UAVs Based on Kernelized Correlation Filter." Mathematics 9 (2021).</br>-->
+<!--[6] Yao Li, Wenbing Tang, Bochen Chen, and Zuohua Ding. "Tracking a Ground Moving Target with UAV Based on Interval Type-2 Fuzzy Logic." The 14th Theoretical Aspects of Software Engineering Conference (TASE). IEEE, 2020. </br>-->
+<!--[7] Wenbing Tang, Libin Zheng, Mingyue Jiang, and Zuohua Ding. "Dynamic Algorithm Selection for Mobile Robots Motion Planning." 2019 6th International Conference on Dependable Systems and Their Applications (DSA). IEEE, 2020. </br>-->
+<!--[8] Wenbing Tang, Zuohua Ding, and Mengchu Zhou. "A spammer identification method for class imbalanced weibo datasets." IEEE Access 7 (2019): 29193-29201.-->
+
+
+<!--<h2>Teaching Assistant</h2>-->
+<!--<hr>-->
+<!--<li>-->
+<!--<a href="https://tingsu.github.io/files/courses/se.html">Software Engineering</a>(with Prof. <a href="http://tingsu.github.io/">Ting Su</a>, for undergraduate students), Spring, 2021-->
+<!--</li>-->
+
+
+
+<!--<h2>Correspondence</h2>-->
+<!--<hr>-->
+<!--<li>-->
+<!--Email: wenbingtang@hotmail.com -->
+<!--</li>-->
+<!--<li>-->
+<!--Address: B1108, Science Building, Zhongbei Campus, East China Normal University, Shanghai, China.-->
+<!--</li>-->
+<!--</br>-->
 
 
 
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=281&t=n&d=ZBy1W092xT3mf4ypoDQ4S1TuSbOl_ptnUWkijaK3-SI&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=281&t=n&d=ZBy1W092xT3mf4ypoDQ4S1TuSbOl_ptnUWkijaK3-SI&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 
+</div>
 </BODY>
 </HTML>
