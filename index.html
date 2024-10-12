@@ -16,6 +16,19 @@
             content: "(" counter(custom-counter) ")";
             margin-right: 10px;
         }
+        .reference {
+            margin: 1px 0;
+        }
+        .reference sup {
+            font-size: inherit;
+            vertical-align: baseline;
+        }
+        .blue-text {
+            color: blue; /* 设置文本颜色为蓝色 */
+        }
+        .aligned-text {
+            text-align: justify; /* 设置文本为两端对齐 */
+        }
     </style>
 
 <BODY TEXT="#000000" BGCOLOR="#ffffff">
@@ -54,16 +67,15 @@
 </header>
 
 <p>
-    <li>
-I am currently a Research Fellow at Nanyang Technological University with Prof. <a href="https://personal.ntu.edu.sg/yangliu/">Yang Liu</a>.
-</li>
-<li>
+    <li class="aligned-text">
+   I am currently a Research Fellow  in the <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/" target="_blank">Nanyang Technological University (NTU)</a> with Prof. <a href="https://personal.ntu.edu.sg/yangliu/">Yang Liu</a>.
+<li class="aligned-text">
     I obtained my Ph.D. degree in June 2024 from <a href="http://www.sei.ecnu.edu.cn/">Software Engineering Institute</a> at  <a href="https://www.ecnu.edu.cn/"> East China Normal University (ECNU)</a>, Shanghai, China, supervised by  by Prof. <a href="https://faculty.ecnu.edu.cn/_s43/lj2/main.psp">Jing Liu</a> and Dr. <a href="https://yuanzhou-yzhou.github.io/">Yuan Zhou</a>.
 </li>
-<li>
+<li class="aligned-text">
     I received my master degree in 2020 from  <a href="http://xinxi.zstu.edu.cn/">School of Information Science and Technology</a> at <a href="http://www.zstu.edu.cn/">Zhejiang Sci-Tech University (ZSTU)</a>, Hangzhou, China, and was supervised by Prof. <a href="http://xinxi.zstu.edu.cn/info/1010/1472.htm">Zuohua Ding</a>.
 </li>
-<li>
+<li class="aligned-text">
 I received my bacholar degreee in 2017 from <a href="http://www.njupt.edu.cn/"> Nanjing University of Posts and Telecommunications (NJUPT)</a>, Nanjing, China.
 </li>
 </p>
@@ -73,27 +85,39 @@ I received my bacholar degreee in 2017 from <a href="http://www.njupt.edu.cn/"> 
 	<h2> <font color="purple">Research Interests </font> </h2>
 </header>
 
-My research interests include (1) cooperative motion control, (2) safe and robust decision-making, and (3) safety testing of autonomous intelligent unmanned systems, such as mobile robots, unmanned aerial vehicles, and autonomous vehicles.
- <ol class="custom-counter">
-     <li><strong>Cooperative Motion Control:</strong> Cooperative collision avoidance and cooperative motion planning of multi-robot systems in unstructured environments.</li>
-     <li><strong>Safe and Robust Decision-making:</strong> Anomaly detection and safety-robust decision-making for mobile robot systems in adversarial and uncertain environments.</li>
-     <li><strong>Safety Testing:</strong> Critical test scenario generation and simulation-based testing of autonomous driving systems.</li>
-     <li><strong>Causal Inference:</strong> Causality-guided debiasing and causal deep reinforcement learning.</li>
+     <p class="aligned-text">My research interests include (1) cooperative motion control, (2) safe and robust decision-making, and (3) safety testing of autonomous intelligent unmanned systems, such as mobile robots, unmanned aerial vehicles, and autonomous vehicles.</p>
+     <ol class="custom-counter">
+     <li class="aligned-text"><strong>Cooperative Motion Control:</strong> Cooperative collision avoidance and cooperative motion planning of multi-robot systems in unstructured environments.</li>
+     <li class="aligned-text"><strong>Safe and Robust Decision-making:</strong> Anomaly detection and safety-robust decision-making for mobile robot systems in adversarial and uncertain environments.</li>
+     <li class="aligned-text"><strong>Safety Testing:</strong> Critical test scenario generation and simulation-based testing of autonomous driving systems.</li>
+     <li class="aligned-text"><strong>Causal Inference:</strong> Causality-guided debiasing and causal deep reinforcement learning.</li>
     </ol>
-In addition, I am also interested in <a href="https://kreattang.github.io/files/causal.html">Causal Inference</a>, such causality-guided debiasing (deconfounding) and causal deep reinforcement learning.
+<p class="aligned-text"> In addition, I am also interested in <a href="https://kreattang.github.io/files/causal.html">Causal Inference</a>, such causality-guided debiasing (deconfounding) and causal deep reinforcement learning.</p>
 <header class="posttitle">
 	<h2> <font color="purple">Publications </font> </h2>
 </header>
-[1] Wenbing Tang, Yuan Zhou, Yang Liu, Zuohua Ding, Jing Liu. "Robust Motion Planning for Multi-Robot Systems
-Against Position Deception Attacks." IEEE Transactions on Information Forensics and Security (2023).</br>
-[2] Wenbing Tang, Yang Liu, Yuan Zhou, Zuohua Ding. "Causality-Guided Counterfactual Debiasing for Anomaly Detection of Cyber-Physical Systems." IEEE Transactions on Industrial Informatics (2023).</br>
-[3] Wenbing Tang, Yuan Zhou, Haiying Sun, Yuhong Zhang, Yang Liu, Zuohua Ding, Jing Liu, Jifeng He. "GAN-Based Robust Motion Planning for Mobile Robots Against Localization Attacks." IEEE Robotics and Automation Letters (2023).</br>
-[4] Wenbing Tang, Yuan Zhou, Tianwei Zhang, Yang Liu, Jing Liu and Zuohua Ding. "Cooperative Collision Avoidance in Multirobot Systems
-using Fuzzy Rules and Velocity Obstacles." Robotica (2022).</br>
-[5] Junqiang Yang, Wenbing Tang, and Zuohua Ding. "Long-Term Target Tracking of UAVs Based on Kernelized Correlation Filter." Mathematics 9 (2021).</br>
-[6] Yao Li, Wenbing Tang, Bochen Chen, and Zuohua Ding. "Tracking a Ground Moving Target with UAV Based on Interval Type-2 Fuzzy Logic." The 14th Theoretical Aspects of Software Engineering Conference (TASE). IEEE, 2020. </br>
-[7] Wenbing Tang, Libin Zheng, Mingyue Jiang, and Zuohua Ding. "Dynamic Algorithm Selection for Mobile Robots Motion Planning." 2019 6th International Conference on Dependable Systems and Their Applications (DSA). IEEE, 2020. </br>
-[8] Wenbing Tang, Zuohua Ding, and Mengchu Zhou. "A spammer identification method for class imbalanced weibo datasets." IEEE Access 7 (2019): 29193-29201.
+          <div id="content", class="aligned-text">
+               <p> Name marked with * implies that I am the corresponding author. </p>
+              <p class="reference"><span class="blue-text">Wenbing Tang</span>, Fenghua Wu, Shang-wei Lin, Zuohua Ding, Jing Liu, Yang Liu, Jifeng He. "Causal deconfounding deep reinforcement learning for mobile robot motion planning." Knowledge-Based Systems, 2024.</p>
+              <p class="reference">Fenghua Wu, <span class="blue-text">Wenbing Tang*</span>, Yuan Zhou, Shang-Wei Lin, Yang Liu, Zuohua Ding. "Continuous Motion Planning for Mobile Robots Using Fuzzy Deep Reinforcement Learning." WRC Symposium on Advanced Robotics and Automation (WRC SARA), 2024.</p>
+              <p class="reference">Fenghua Wu, <span class="blue-text">Wenbing Tang*</span>, Yuan Zhou, Shang-Wei Lin, Zuohua Ding, Yang Liu. "Robust motion planning for mobile robots under attacks against obstacle localization." Robotica, 2024.</p>
+        <p class="reference"><span class="blue-text">Wenbing Tang</span>, Yuan Zhou, Yang Liu, Zuohua Ding, Jing Liu. "Robust Motion Planning for Multi-Robot Systems  Against Position Deception Attacks." IEEE Transactions on Information Forensics and Security, 2023.</p>
+              <p class="reference"><span class="blue-text">Wenbing Tang</span>, Yang Liu, Yuan Zhou, Zuohua Ding. "Causality-Guided Counterfactual Debiasing for Anomaly Detection of Cyber-Physical Systems." IEEE Transactions on Industrial Informatics, 2023.</p>
+               <p class="reference"><span class="blue-text">Wenbing Tang</span>, Yuan Zhou, Haiying Sun, Yuhong Zhang, Yang Liu, Zuohua Ding, Jing Liu, Jifeng He. "GAN-Based Robust Motion Planning for Mobile Robots Against Localization Attacks." IEEE Robotics and Automation Letters, 2023.</p>
+               <p class="reference"><span class="blue-text">Wenbing Tang</span>, Yuan Zhou, Tianwei Zhang, Yang Liu, Jing Liu and Zuohua Ding. "Cooperative Collision Avoidance in Multirobot Systems using Fuzzy Rules and Velocity Obstacles." Robotica, 2022.</p>
+               <p class="reference"> Junqiang Yang, <span class="blue-text">Wenbing Tang</span>, and Zuohua Ding. "Long-Term Target Tracking of UAVs Based on Kernelized Correlation Filter." Mathematics, 2021.</p>
+               <p class="reference">Yao Li, <span class="blue-text">Wenbing Tang</span>, Bochen Chen, and Zuohua Ding. "Tracking a Ground Moving Target with UAV Based on Interval Type-2 Fuzzy Logic." The 14th Theoretical Aspects of Software Engineering Conference (TASE), 2020.</p>
+               <p class="reference"><span class="blue-text">Wenbing Tang</span>, Libin Zheng, Mingyue Jiang, and Zuohua Ding. "Dynamic Algorithm Selection for Mobile Robots Motion Planning." International Conference on Dependable Systems and Their Applications (DSA), 2019.</p>
+               <p class="reference"><span class="blue-text">Wenbing Tang</span>, Zuohua Ding, and Mengchu Zhou. "A spammer identification method for class imbalanced weibo datasets." IEEE Access, 2019.</p>
+
+    </div>
+
+    <script>
+        const references = document.querySelectorAll('.reference');
+        references.forEach((ref, index) => {
+            ref.innerHTML = `<sup>[${index + 1}]</sup> ` + ref.innerHTML;
+        });
+    </script>
 
 <header class="posttitle">
 	<h2> <font color="purple">Awards & Honors </font> </h2>
@@ -102,6 +126,8 @@ using Fuzzy Rules and Velocity Obstacles." Robotica (2022).</br>
 <li>Outstanding Graduate of Zhejiang, 2020</li>
 <li>National Graduate Fellowship, 2019</li>
 <li>National Encouragement Scholarship,2014</li>
+
+
 
 
 
